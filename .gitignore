@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# zgrab
+/zgrab2
+cmd/zgrab2/zgrab2
+cmd/zgrab2/zgrab2.exe
+zgrab-output/
+
+# CI dependencies
+jp
+jp.exe
+
+# Compiled python modules
+schemas/*.pyc
+
+# Marker files for make
+docker-runner/*.id
+
+# Python
+venv/*
+*.pyc
+zgrab2_schemas.egg-info/*
+build/*
+dist/*
+
+.vscode/*
